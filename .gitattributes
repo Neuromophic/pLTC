@@ -1,0 +1,15 @@
+# Keep source files, notebooks, and command lists on LF across platforms.
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.slurm text eol=lf
+
+# Preserve the serialized datasets and device models byte for byte.
+*.tsds binary
+*.package binary
+*_package binary
+utils/aging_model_exp binary

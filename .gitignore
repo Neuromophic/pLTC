@@ -1,0 +1,23 @@
+# Generated command lists, Slurm logs, and paper figures
+/jobs/
+/figures/
+/train.txt
+/evaluate.txt
+
+# Experiment outputs
+results/
+/project/
+/prnn-*/
+/pltc-*/
+
+# Runtime files under a custom --projectname
+**/models/pNN_dataset-*_seed-*
+**/temp/*.ckp
+**/record/*.ckp
+**/log/*.log
+**/eval/eval-*/
+
+# Python and Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
